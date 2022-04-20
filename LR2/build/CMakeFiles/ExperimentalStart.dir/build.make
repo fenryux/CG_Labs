@@ -52,10 +52,10 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Projects\CG_Labs\LR2
+CMAKE_SOURCE_DIR = D:\Projects\CG_Labs\LR2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Projects\CG_Labs\LR2\build
+CMAKE_BINARY_DIR = D:\Projects\CG_Labs\LR2\build
 
 # Utility rule file for ExperimentalStart.
 
@@ -81,6 +81,6 @@ CMakeFiles/ExperimentalStart.dir/clean:
 .PHONY : CMakeFiles/ExperimentalStart.dir/clean
 
 CMakeFiles/ExperimentalStart.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Projects\CG_Labs\LR2 E:\Projects\CG_Labs\LR2 E:\Projects\CG_Labs\LR2\build E:\Projects\CG_Labs\LR2\build E:\Projects\CG_Labs\LR2\build\CMakeFiles\ExperimentalStart.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Projects\CG_Labs\LR2 D:\Projects\CG_Labs\LR2 D:\Projects\CG_Labs\LR2\build D:\Projects\CG_Labs\LR2\build D:\Projects\CG_Labs\LR2\build\CMakeFiles\ExperimentalStart.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalStart.dir/depend
 

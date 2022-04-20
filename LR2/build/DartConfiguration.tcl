@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: E:/Projects/CG_Labs/LR2
-BuildDirectory: E:/Projects/CG_Labs/LR2/build
+SourceDirectory: D:/Projects/CG_Labs/LR2
+BuildDirectory: D:/Projects/CG_Labs/LR2/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: DESKTOP-LOFGEE5
+Site: DESKTOP-2A73ES5
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Win32-mingw32-make
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Qt/Tools/CMake_64/bin/cmake.exe" "E:/Projects/CG_Labs/LR2"
+ConfigureCommand: "C:/Qt/Tools/CMake_64/bin/cmake.exe" "D:/Projects/CG_Labs/LR2"
 MakeCommand: C:/Qt/Tools/CMake_64/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -62,7 +62,7 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: C:/msys64/mingw64/bin/g++.exe
+Compiler: C:/Qt/Tools/mingw900_64/bin/g++.exe
 CompilerVersion: 11.2.0
 
 # Dynamic analysis (MemCheck)
@@ -80,7 +80,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: C:/msys64/mingw64/bin/gcov.exe
+CoverageCommand: C:/Qt/Tools/mingw900_64/bin/gcov.exe
 CoverageExtraFlags: -l
 
 # Testing options

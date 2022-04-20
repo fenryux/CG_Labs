@@ -1,7 +1,7 @@
 [
 {
-  "directory": "E:/Projects/CG_Labs/LR2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\LR2.dir\\main.cpp.obj -c E:\\Projects\\CG_Labs\\LR2\\main.cpp",
-  "file": "E:/Projects/CG_Labs/LR2/main.cpp"
+  "directory": "D:/Projects/CG_Labs/LR2/build",
+  "command": "C:\\Qt\\Tools\\mingw900_64\\bin\\g++.exe   -g -o CMakeFiles\\LR2.dir\\main.cpp.obj -c D:\\Projects\\CG_Labs\\LR2\\main.cpp",
+  "file": "D:/Projects/CG_Labs/LR2/main.cpp"
 }
 ]
